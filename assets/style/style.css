@@ -55,27 +55,30 @@ font-size: 17px;
 }
 /* Core styling */
 .core{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     height:500px;
     width:100%;
     background-color:rgb(39, 36, 36);
 }
 /* Circles */
 .kolumna1{
+    flex-shrink:2;
+    margin:15px;
+    order:1;
     width:300px;
-    position: relative;
-    float: left;
     top:100px;
-    margin-left:50%;
-    left:-350px;
     text-align:justify;
     color: white;
 }
 .kolumna2{
+    margin:15px;
+    order:2;
     width:300px;
-    position: relative;
-    float: left;
     top:100px;
-    left:-250px;
     text-align:justify;
     color:white;
 }
@@ -117,5 +120,7 @@ flex-wrap: wrap;
     width:300px;
     height:500px;
 }
+
+
 
 
